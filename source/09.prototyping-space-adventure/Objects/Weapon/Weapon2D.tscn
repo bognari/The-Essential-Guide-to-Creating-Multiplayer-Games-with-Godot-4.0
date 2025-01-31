@@ -60,3 +60,6 @@ texture = ExtResource("2")
 libraries = {
 "": SubResource("AnimationLibrary_m5mll")
 }
+
+[node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="."]
+spawn_path = NodePath("../BulletSpawner2D")
